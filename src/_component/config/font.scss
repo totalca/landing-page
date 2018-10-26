@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'landing-page-custom-font';
   src:
-    url('assetfont/landing-page-custom-font.ttf?abzvij') format('truetype'),
-    url('assetfont/landing-page-custom-font.woff?abzvij') format('woff'),
-    url('assetfont/landing-page-custom-font.svg?abzvij#landing-page-custom-font') format('svg');
+    url('asset/font/landing-page-custom-font.ttf?abzvij') format('truetype'),
+    url('asset/font/landing-page-custom-font.woff?abzvij') format('woff'),
+    url('asset/font/landing-page-custom-font.svg?abzvij#landing-page-custom-font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -11,7 +11,7 @@
 [class^="lpcf-"], [class*=" lpcf-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'landing-page-custom-font' !important;
-  speak: none;
+  //speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
